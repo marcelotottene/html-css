@@ -155,10 +155,11 @@ article a.externo::after {
 }
 
 strong{
-    color: var(--cor5);
+    color: black;
     font-size: 1.1em;
     font-weight: lighter;
     text-shadow: 1px 1px 2px rgb(0, 0, 0, 10);
+    margin: auto;
 }
 aside {
     background-color: var(--cor1);
