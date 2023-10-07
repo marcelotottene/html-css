@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: yellowgreen;
+            */
+            border: 10px solid yellowgreen;/*podemos escrever as 3 linhas de cima desta forma, sempre respeitando a sequencia. (shorthand)*/
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            padding: 10px 10px 10px 10px;/*podemos escrever as 4 linhas de cima desta forma, sempre respeitando a sequencia. (shorthand)*/
+            margin: auto;
+            
+        }
+        a{
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            /*
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            */
+            margin: 10px;/*Podemos escrever as 4 linhas de cima desta forma, sempre respeitando a sequencia. (shorthand)
+            Se todas as definições forem iguais como no exemplo, podemos escrever apenas uma vez o valor.
+            */
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+            */
+            outline: 10px dashed salmon;/*shorthand*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo caixa box level</h1>
+    <p>Páragrafo tambèm são exemplos de box level, mas os <a href="#"> links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+
+</body>
+</html>
