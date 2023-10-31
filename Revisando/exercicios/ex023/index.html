@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 500px;
+            border-collapse: collapse;
+            border: 5px solid black;
+            text-align: center;
+        }
+        td{
+            border: 1px solid black;
+        }
+        td.colunaC {
+            background-color: rgba(0, 0, 0, 0.233);
+        }
+        td.img {
+            background-image: url(background001.jpg);
+            background-size: 200px;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>A2</td>
+            <td>A3</td>
+        </tr>
+        <tr>
+            <td>B1</td>
+            <td>B2</td>
+            <td>B3</td>
+        </tr>
+        <tr>
+            <td class="colunaC">C1</td>
+            <td>C2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td class="img">D1</td>
+            <td>D2</td>
+            <td>D3</td>
+        </tr>
+    </table>
+</body>
+</html>
