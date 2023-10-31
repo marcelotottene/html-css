@@ -16,6 +16,9 @@
     font-size: 1em;
     font-weight: lighter;
 }
+html, body {
+    min-height: 100vh;
+}
 header{
     background-color: black;
     color: white;
@@ -24,6 +27,7 @@ header{
 header > h1{
     font-family: var(--fonte2);
     font-size: 10vw;
+    padding-top: 8vw;
 }
 header > p{
     font-family: var(--fonte1);
@@ -32,41 +36,47 @@ header > p{
 }
 header  a, footer  a{
     color: white;
-    text-decoration: line;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
 }
 section {
-
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 section > p {
     background-color: white;
     color: black;
     font-family: var(--fonte3);
-    font-size: 3vh;
+    font-size: 3vw;
     text-align: initial;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 3vh;
+    padding-left: 3vw;
 }
 section.imagem > p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.329);
     color: white;
-    width: 40vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;    
+    width: 40vw;
+    margin: 10px;
+    margin-left: 2vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;    
+    padding-left: 1vw;
 }
 section#imagem01 {
-    background: black url(imagem/background001.jpg) center center no-repeat fixed;
+    background: black url(imagem/background001.jpg) right center no-repeat fixed;
     background-size: cover;
-    padding: 80px 0px 80px 30px
 }
 section#imagem02 {
     background: black url(imagem/background002.jpg) center center no-repeat fixed;
     background-size: cover;
-    padding: 80px 0px 80px 30px
 }
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 2px
+    padding: 6px
 }
